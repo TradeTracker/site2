@@ -1,247 +1,535 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>TradeTracker — Ease of use trade tracker</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" type="image/png" href="images/favicon.png">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		
-		<meta name="description" content="Ease of use trade tracker and automated trading with algo strategies. We provide all the risk & trade management tools you will need, so that you become a better trader!" />
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:url" content="https://tradetracker.app/images/meta-image_640x360.png"> <!-- 640x360 px -->
-		<meta name="twitter:title" content="TradeTracker — Ease of use trade tracker">
-		<meta name="twitter:description" content="Ease of use trade tracker and automated trading with algo strategies. We provide all the risk & trade management tools you will need, so that you become a better trader!">
-		<meta name="twitter:site" content="@TradeTrackerApp">
-		<meta name="twitter:domain" content="tradetracker.app">
-		<meta name="twitter:image:src" content="https://tradetracker.app/images/meta-image_640x360.png">
-		<meta name="twitter:image:width" content="640">
-		<meta name="twitter:image:height" content="360">
-		<meta property="og:site_name" content="TradeTracker.App" />
-		<meta property="og:url" content="https://tradetracker.app" />
-		<meta property="og:title" content="TradeTracker — Ease of use trade tracker" />
-		<meta property="og:description" content="Ease of use trade tracker and automated trading with algo strategies. We provide all the risk & trade management tools you will need, so that you become a better trader!" />
-		<meta property="og:image" content="https://tradetracker.app/images/meta-image_640x360.png" />
-		<meta property="og:image:type" content="image/jpeg" />
-		<meta property="og:image:width" content="640" />
-		<meta property="og:image:height" content="360" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeTracker — Ease of use trade tracker, by traders, for traders!</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/fira_code.css" integrity="sha512-LaxQmGd9k/pW51CsEy2nLIlbUXCgsyvUEVT5fSguN2b2OBwHjMi2aiUdEEXSMg8Jvy+bCB01as61aNrHnL2DYQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&amp;Roboto&amp;family=Fredoka+One&amp;family=Quicksand&amp;display=swap" rel="stylesheet">
+    <style>
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">The mantra of trading</a></li>
-							<li><a href="#two">Our features</a></li>
-							<li><a href="#three">Join open beta</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        body {
+            font-size: 1.2rem;
+            font-family: "Noto Sans";
+            color: rgb(58, 58, 58);
+            background-color: rgb(248, 250, 255);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<div>
-								<img src="images/icon.png" style="margin-bottom: 12px;" />
-							</div>
-							<img src="images/logo.png" alt="TradeTracker" class="logo" />
-							<p>
-								Ease of use trade tracker. <br/>
-								We provide all the risk & trade management tools you will need.
-							</p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
-								<li><a href="https://beta.tradetracker.app" target="_blank" class="button scrolly">Open app</a></li>
-							</ul>
-						</div>
-					</section>
+        main {
+            
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+        }
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a class="image"><img src="images/img2.PNG" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>1. Everything starts with a (trade) plan</h2>
-									<p>
-										Every trade should start with a trade plan. 
-										Use our calculator to determine your position size that fits with your risk management.
-										Journal all your executed trades by hand or automatically with our Exchange API integrations.
-									</p>
-									<!-- <ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul> -->
-								</div>
-							</div>
-						</section>
-						<section>
-							<a class="image"><img src="images/img3.PNG" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>2. Track your risk and manage your losses</h2>
-									<p>
-										To become profitable, means to control risk.
-										Our app is focused on risk management to help you become profitable.
-										It constantly reminds you how much risk you are taking while trading.
-									</p>
-									<!-- <ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul> -->
-								</div>
-							</div>
-						</section>
-						<section>
-							<a class="image"><img src="images/img1.PNG" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>3. Learn from the past, improve for the future</h2>
-									<p>
-										To improve, you need historical data.
-										Gain key insight into your trading performance by tracking trading related key performance indicators (KPI's), and learn how to improve your trading.
-									</p>
-									<!-- <ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul> -->
-								</div>
-							</div>
-						</section>
-					</section>
+        h1 { 
+            margin: 0;
+        }
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Our features</h2>
-							<p>
-								The goal of our trade tracker app is to turn you into a profitable trader. The key to being profitable is risk management, and our app will teach you this.
-								To achieve this goal, we have implemented the following features.
-							</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-book"></span>
-									<h3>Trade journaling</h3>
-									<p>
-										Keep track of all your trades in a web-based journal hosted in the cloud.
-										Either by hand, or automatically.
-									</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-signal"></span>
-									<h3>Performance analytics</h3>
-									<p>Gathers trading related key performance indicators (KPI's) to help you improve your trading.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-exclamation"></span>
-									<h3>Focus on risk & teaches risk management</h3>
-									<p>Continuously reminds you of how much risk you are taking to help you become profitable. Remember, risk management is key to trading.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Integrated with major exchanges</h3>
-									<p>
-										<!-- Automate everything by connecting to your favorite exchange. Exchange not listed? We will add it! -->
-										Coming soon!
-									</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-info"></span>
-									<h3>We want you to learn</h3>
-									<p>
-										We have created a resource center that will teach you how to manage your risk, manage trading emotions, technical analysis, and other things to help you with trading profitable.
-									</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Focused on privacy</h3>
-									<p>We don't care about your name, all we need is an e-mail address in case you forget your password.</p>
-								</section>
-							</div>
-							<!-- <ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul> -->
-						</div>
-					</section>
+        h1, h2, h3, h4, h5, h6 {
+            color: #111;
+        }
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
+        h1, h2, a {
+            font-family: "Fira Code";
+        }
 
+        section img {
+            max-width: 100%;
+            height: auto;
+            margin: 1rem;
+            box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
+            border-radius: 0.5rem;
+        }
 
-<div class="split style1">
-								<section>
-																<h2>Registration is now available for everyone!</h2>
-							<p>
-								Our open beta is now available for everyone. Go to our app to register your free account.
-							</p>
-							<ul class="actions">
-								<li><a href="https://beta.tradetracker.app/register" target="_blank" class="button scrolly">Register</a></li>
-							</ul>
-								</section>
-								<section>
-									<ul class="contact">
-										<!-- <li>
-											<h3>Address</h3>
-											<span>Unknown Address #69<br />
-											1234 TT, Amsterdam<br />
-											The Netherlands</span>
-										</li> -->
-										<li>
-											<img src="images/icon.png" style="height: 100px;" />
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">info@tradetracker.app</a>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="https://twitter.com/TradeTrackerApp" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="https://discord.gg/J2b7CrncTD" class="fab fa-discord"><span class="label">Discord</span></a></li>
-												<li><a href="https://github.com/TradeTracker" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+        .letter {
+            max-width: min(1800px, 80vw);
+            margin: auto;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
 
-			</div>
+        .flex {
+            display: flex;
+        }
+        
+        .flex-row {
+            flex-direction: row;
+        }
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; 2021 TradeTracker.app. All rights reserved.</li><li><small>Design: <a href="http://html5up.net">HTML5 UP</a></small></li>
-					</ul>
-				</div>
-			</footer>
+        .flex-column {
+            flex-direction: column;
+        }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script>
-				// Add the form action by "decrypting" this Base64 string. Prevents bots that submits forms...
-				const el = document.getElementById('form');
-				el.action = atob('aHR0cHM6Ly9mb3Jtc3ByZWUuaW8vZi94cHpva3ducg==');
-			</script>
-	</body>
+        .flex-row-reverse {
+            flex-direction: row-reverse;
+        }
+
+        .flex-column-reverse {
+            flex-direction: column-reverse;
+        }
+
+        .flex-wrap {
+            flex-wrap: wrap;
+        }
+
+        .align-center {
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gap-small {
+            gap: 2rem;
+        }
+
+        .gap-medium {
+            gap: 4rem;
+        }
+
+        .gap-large {
+            gap: 8rem;
+        }
+
+        .flex > div {
+            padding-inline: 1.75rem;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        header {
+            background-color: rgb(245, 245, 245);
+            box-shadow: -6px 6px 18px rgba(0, 0, 0, 0.25);
+            margin-bottom: 8rem;
+        }
+
+        header > div {
+            align-items: center; 
+            height: 4rem;
+        }
+
+        footer {
+            margin: 10rem;
+            text-align: center;
+        }
+
+        a.button {
+            color: unset;
+            text-decoration: unset;
+            white-space: nowrap;
+        }
+
+        .button, a.button {
+            color: #5867dd;
+            font-weight: 800;
+            border: 3px solid #5867dd;
+            padding: 12px 20px 10px 20px;
+            border-radius: 0.7rem;
+            text-transform: uppercase;
+            transition: color, width, height, background-color, 0.3s;
+        }
+
+        .button:hover {
+            color: white;
+            background-color: #5867dd;
+        }
+
+        main section .button:hover {
+            transform: scale(125%);
+        }
+
+        .blob {
+            width: 85vw;
+            height: auto;
+            margin-top: -15vh;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .flex-row img, .flex-row-reverse img {
+            max-width: min(100%, 1000px);
+        }
+
+        .flex-row .blob {
+            margin-left: -60%;
+        }
+
+        .flex-row-reverse .blob {
+            margin-right: -60%;
+        }
+
+        .footer-blob {
+            margin-right: unset;
+            margin-left: -60%;
+            margin-top: 25%;
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        .paragraph {
+            min-width: 60ch;
+            max-width: 80ch;
+        }
+
+        .logo {
+            height: 2rem;
+            margin-left: 2.6rem;
+        }
+
+        .grow {
+            flex-grow: 1;
+        }
+
+        .trial {
+            transform: scale(80%);
+        }
+
+        .title {
+            font-size: 24pt;
+        }
+
+        section img {
+            transition: width, height, 0.4s;
+        }
+
+        section img:hover {
+            transform: scale(105%);
+        }
+
+        @media screen and (max-width: 1600px) {
+            body {
+                font-size: 1rem;
+            }
+
+            .title {
+                font-size: 18pt;
+            }
+
+            .letter {
+                max-width: 90vw;
+            }
+
+            .blob {
+                transform: scale(150%);
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+            body {
+                font-size: 0.9rem;
+            }
+
+            .paragraph {
+                min-width: 40ch;
+                max-width: 60ch;
+            }
+
+            img {
+                max-height: 600px;
+            }
+
+            .title {
+                font-size: 14pt;
+            }
+        }
+
+        @media screen and (max-width: 900px) {
+
+            .title {
+                max-width: 80vw;
+                margin: auto;
+            }
+
+            header img {
+                margin: unset;
+                margin-top: 0.9rem;
+                margin-left: 0;
+            }
+
+            main .flex-row, main .flex-row-reverse {
+                flex-direction: column-reverse;
+                gap: 4rem;
+                text-align: center;
+            }
+
+            header .button {
+                display: none;
+            }
+
+            header .flex-row {
+                flex-direction: column;
+            }
+
+            .blob {
+                transform: scale(300%);
+            }
+
+            .footer-blob {
+                transform: scale(350%);
+            }
+
+            .gap-small {
+                gap: 1rem !important;
+            }
+
+            section img {
+                margin: unset;
+            }
+
+            footer {
+                margin: 4rem;
+            }
+        }
+
+</style>
+</head>
+<body>
+
+    <main>
+
+        <header>
+
+            <div class="letter flex flex-row">
+                <img class="logo" src="https://beta.tradetracker.app/img/logo.png" alt="TradeTracker Logo" />
+                <div class="grow"></div>
+                <div class="trial">
+                    <a class="button" href="https://beta.tradetracker.app" target="_blank" rel="noopener noreferrer">Launch app</a> 
+                </div>
+            </div>
+    
+        </header>
+    
+        <div class="letter flex flex-column gap-large">
+    
+            <section class="title center">
+                <h2>❝Developed by traders, for traders!❞ 📈</h2>
+            </section>
+            <section class="flex flex-row align-center">
+                <div>
+                    <img src="dashboard.png" alt="Dashboard" />
+                </div>
+                <div>
+                    <div class="flex flex-column gap-medium paragraph">
+                        <div>
+                            <h2>Become a better trader</h2>
+                            <p>
+                                To improve, you need historical data. Gain key insight into your trading performance by 
+                                tracking trading related key performance indicators (KPI's), and learn how to improve 
+                                your trading.
+                            </p>
+                            <p>
+                                We have built this app for traders to succeed!
+                            </p>
+                        </div>
+                        <div>
+                            <a class="button" href="https://beta.tradetracker.app/register" target="_blank" rel="noopener noreferrer">Join open beta</a> 
+                        </div>
+                    </div>
+                </div>
+                <div class="blob">
+                    <!-- https://www.blobmaker.app/ -->
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#fcda80" d="M57.5,-62.7C73.1,-55.4,83.5,-36,84,-17.2C84.5,1.6,75.1,19.8,62.8,31.7C50.5,43.7,35.3,49.4,19.2,57.1C3.1,64.9,-13.8,74.7,-26.9,71.1C-40,67.6,-49.2,50.7,-58.4,34C-67.6,17.4,-76.8,1.1,-77.4,-16.8C-78,-34.8,-70.1,-54.4,-55.7,-61.9C-41.4,-69.4,-20.7,-64.9,0.1,-65C20.9,-65.2,41.9,-70,57.5,-62.7Z" transform="translate(100 100)" />
+                    </svg>
+                </div>
+            </section>
+        
+            <section class="flex flex-row-reverse align-center">
+                <div>
+                    <img src="trades.png" alt="Dashboard" />
+                </div>
+                <div>
+                    <div class="flex flex-column gap-medium paragraph">
+                        <div>
+                            <h2>Free to use!</h2>
+                            <p>
+                                All features currently available on our app are free and will be free forever.
+                            </p>
+                            <p>
+                                At some point we will implement additional features for TradeTracker Pro which 
+                                will be monetized. We have to pay for our servers somehow. But again, don't worry, all features currently available will 
+                                still be free.
+                            </p>
+                        </div>
+                        <div>
+                            <h2>Export your data</h2>
+                            <p>
+                                We don't want to keep your data hostage.
+                                The app provides a CSV export that you can use to download all your data.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blob">
+                    <!-- https://www.blobmaker.app/ -->
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#fcda80" d="M59,-54.3C73.5,-44.4,80.3,-22.2,79.3,-1C78.4,20.3,69.6,40.6,55.1,49.7C40.6,58.9,20.3,56.8,0.6,56.3C-19.2,55.7,-38.3,56.6,-47.2,47.5C-56.2,38.3,-54.8,19.2,-50.6,4.2C-46.4,-10.8,-39.3,-21.5,-30.4,-31.4C-21.5,-41.3,-10.8,-50.4,5.7,-56.1C22.2,-61.9,44.4,-64.3,59,-54.3Z" transform="translate(100 100)" />
+                    </svg>
+                </div>
+            </section>
+
+            <section class="flex flex-row-reverse align-center">
+                <div>
+                    <img src="calculator.png" alt="Dashboard" />
+                </div>
+                <div>
+                    <div class="flex flex-column gap-medium paragraph">
+                        <div>
+                            <h2>Position size calculator</h2>
+                            <p>
+                                Have you ever asked yourself what your position size should be if you have an entry, 
+                                stoploss, and a maximum amount of risk you want to take?
+                            </p>
+                            <p>
+                                Our position size calculator will answer that question for you. If you have 
+                                created a trade plan and have an entry, target, and stop loss, your optimal 
+                                position size will be calculated automatically based on your risk profile.
+                            </p>
+                        </div>
+                        <div>
+                            <h2>Accurate fees</h2>
+                            <p>
+                                The app calculates all your fees accurate to the cent. 
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <a class="button" href="https://beta.tradetracker.app/register" target="_blank" rel="noopener noreferrer">Join open beta</a> 
+                        </div>
+                    </div>
+                </div>
+                <div class="blob">
+                    
+                </div>
+            </section>
+        
+            <section class="flex flex-row align-center">
+                <div>
+                    <img src="trade-setup.png" alt="Dashboard" />
+                </div>
+                <div>
+                    <div class="flex flex-column gap-medium paragraph">
+                        <div>
+                            <h2>Tags</h2>
+                            <p>
+                                Tags will help to categorize trades based on specific labels. 
+                                Categorize the trades with tags to see which tags are
+                                profitable to trade and which ones are not.  
+                            </p>
+                            <p>
+                                It helps you to identify which strategies, patterns or mistakes yields the biggest wins or losses.
+                            </p>
+                        </div>
+                        <div>
+                            <a class="button" href="https://docs.tradetracker.app/tags/" target="_blank" rel="noopener noreferrer">Learn more</a> 
+                        </div>
+
+                    </div>
+                </div>
+                <div class="blob">
+                    <!-- https://www.blobmaker.app/ -->
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#fcda80" d="M33.6,-23.6C48.1,-19.1,67.5,-9.5,73.9,6.4C80.3,22.3,73.6,44.6,59.1,52.1C44.6,59.7,22.3,52.5,0.4,52.1C-21.5,51.7,-42.9,58,-48.7,50.5C-54.5,42.9,-44.7,21.5,-45.4,-0.7C-46.1,-22.9,-57.4,-45.7,-51.6,-50.3C-45.7,-54.8,-22.9,-40.9,-6.7,-34.3C9.5,-27.6,19.1,-28.1,33.6,-23.6Z" transform="translate(100 100)" />
+                    </svg>
+                </div>
+            </section>
+        
+            <!-- <section class="flex flex-row-reverse align-center">
+                <div>
+                    <img src="periodic-goals.png" alt="Dashboard" />
+                </div>
+                <div>
+                    <div class="flex flex-column gap-medium paragraph">
+                        <div>
+                            <h2>Periodic goals</h2>
+                            <p>Set a goal so you can work sustainably towards more profits.</p>
+                        </div>
+                        <div>
+                            <a class="button" href="https://beta.tradetracker.app" target="_blank" rel="noopener noreferrer">Go to app</a> 
+                        </div>
+                    </div>
+                </div>
+                <div class="blob">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#ffad00" d="M62.2,-56.1C78.5,-45.8,88.3,-22.9,86.9,-1.4C85.5,20.1,72.9,40.3,56.6,55.1C40.3,70,20.1,79.5,0.3,79.2C-19.5,78.8,-38.9,68.6,-43.3,53.8C-47.7,38.9,-37.1,19.5,-32.3,4.8C-27.6,-9.9,-28.7,-19.9,-24.3,-30.2C-19.9,-40.4,-9.9,-51,6.5,-57.5C22.9,-64,45.8,-66.4,62.2,-56.1Z" transform="translate(100 100)" />
+                    </svg>
+                </div>
+            </section> -->
+        
+            <section class="flex flex-row-reverse align-center">
+                <div>
+                    <img src="risk-reward.png" alt="Dashboard" />
+                </div>
+                <div>
+                    <div class="flex flex-column gap-medium paragraph">
+                        <div>
+                            <h2>Risk, risk, and risk!</h2>
+                            <p>
+                                Continuously reminds you of how much risk you are taking to help you become profitable. 
+                                Remember, risk management is key to trading.
+                            </p>
+                            <p>
+                                Use the risk of loss tool to immediately see how your current risk profile impacts your balance in the future if things are going south.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blob">
+                    <!-- <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#ffad00" d="M29.4,-35C34.8,-23.9,33.8,-11.9,36.8,2.9C39.7,17.8,46.6,35.6,41.1,46.8C35.6,57.9,17.8,62.4,5,57.4C-7.8,52.5,-15.7,38,-29.5,26.8C-43.3,15.7,-63.1,7.8,-68.2,-5.1C-73.3,-18.1,-63.7,-36.1,-49.9,-47.3C-36.1,-58.5,-18.1,-62.7,-3.1,-59.7C11.9,-56.6,23.9,-46.2,29.4,-35Z" transform="translate(100 100)" />
+                    </svg> -->
+                </div>
+            </section>
+
+            <section class="flex flex-row-reverse align-center">
+                <!-- <div>
+                    <img src="risk-reward.png" alt="Dashboard" />
+                </div> -->
+                <div>
+                    <div class="flex flex-column gap-medium paragraph center">
+                        <div>
+                            <h2>Join our community!</h2>
+                            <p>
+                                Our open beta is now available for everyone. Go to our app to register your free account.
+                                We would also love it if you would join our community! 
+                                Your feedback is invaluable to us, so please join our Discord, and tell us your experience!
+                            </p>
+
+                        </div>
+                        <div class="flex flex-row gap-small justify-center">
+                            <a class="button" href="https://beta.tradetracker.app" target="_blank" rel="noopener noreferrer">Launch app</a> 
+                            <a class="button" href="https://twitter.com/TradeTrackerApp" target="_blank" rel="noopener noreferrer">Twitter</a> 
+                            <a class="button" href="https://discord.gg/J2b7CrncTD" target="_blank" rel="noopener noreferrer">Discord</a> 
+                        </div>
+                    </div>
+                </div>
+                <div class="blob footer-blob">
+                    <!-- https://www.blobmaker.app/ -->
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#fcda80" d="M33.8,-42.5C44.6,-38.8,54.6,-29.9,59.6,-18.4C64.7,-7,64.8,7,59.7,18.4C54.6,29.7,44.3,38.3,33.5,50.2C22.7,62.2,11.4,77.4,-0.3,77.8C-11.9,78.2,-23.8,63.7,-38.1,52.8C-52.3,42,-69,34.9,-72.2,23.8C-75.4,12.6,-65.1,-2.6,-57.6,-16.6C-50.1,-30.5,-45.3,-43.2,-36.2,-47.4C-27,-51.7,-13.5,-47.5,-1,-46.1C11.5,-44.8,23.1,-46.2,33.8,-42.5Z" transform="translate(100 100)" />
+                    </svg>
+                </div>
+            </section>
+    
+        </div>
+    
+        <footer>
+            <div class="letter">
+                Copyright 2022 — TradeTracker
+            </div>
+        </footer>
+
+    </main>
+
+</body>
 </html>
