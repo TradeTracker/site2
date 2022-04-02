@@ -4,7 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TradeTracker — Ease of use trade tracker. Build by traders, for traders!</title>
+	<meta name="title" content="TradeTracker.app">
+	<meta name="description" content="Ease of use trade tracker. Built by traders, for traders!">
+	<title>TradeTracker — Ease of use trade tracker. Built by traders, for traders!</title>
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="TradeTracker.app">
+	<meta property="og:url" content="https://tradetracker.app">
+	<meta property="og:title" content="TradeTracker.app">
+	<meta property="og:description" content="Ease of use trade tracker. Built by traders, for traders!">
+	<meta property="og:image" content="https://tradetracker.app/meta-images/tradetracker-mockup.png">
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://tradetracker.app">
+	<meta property="twitter:title" content="TradeTracker.app">
+	<meta property="twitter:description" content="Ease of use trade tracker. Built by traders, for traders!">
+	<meta property="twitter:image" content="https://tradetracker.app/meta-images/tradetracker-mockup.png">
+	<!-- End meta tags -->
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/fira_code.css" integrity="sha512-LaxQmGd9k/pW51CsEy2nLIlbUXCgsyvUEVT5fSguN2b2OBwHjMi2aiUdEEXSMg8Jvy+bCB01as61aNrHnL2DYQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&amp;Roboto&amp;family=Fredoka+One&amp;family=Quicksand&amp;display=swap" rel="stylesheet">
@@ -320,7 +335,7 @@
         <div class="letter flex flex-column gap-large">
     
             <section class="title center">
-                <h2><span class="no-wrap">❝Build by traders,</span> for traders!❞ 📈</h2>
+                <h2><span class="no-wrap">❝Built by traders,</span> for traders!❞ 📈</h2>
             </section>
             <section class="flex flex-row align-center">
                 <div>
